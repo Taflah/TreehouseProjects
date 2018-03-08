@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="20dp"
+    tools:context="com.taflah.thirdprojectcreatingaquizapp.StartScreenActivity">
+
+    <Button
+        android:id="@+id/startQuiz"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dirctionTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="#4A96AD"
+        android:onClick="startQuiz"
+        android:text="StartThe Quiz"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mathQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:text="Math Quiz"
+        android:textColor="#7D1935"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dirctionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mathQuiz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="- this quiz includes 10 questions.\n\n- You have to solve 6 questions correctly to pass the quiz."
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>
